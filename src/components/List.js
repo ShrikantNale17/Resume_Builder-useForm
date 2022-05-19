@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-// import { v4 as uuidv4 } from 'uuid';
 
 function List() {
     const navigate = useNavigate();
@@ -63,28 +62,6 @@ function List() {
                                             )
                                         }
                                     </tbody>
-                                    {/* <tr>
-                                        <td>1</td>
-                                        <td>Abhijit Borade</td>
-                                        <td>abhijit@angularminds.com</td>
-                                        <td>5</td>
-                                        <td>60</td>
-                                        <td>
-                                            <span>Edit</span>
-                                            <span className="text-danger ms-2">Delete</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Abhijit Borade</td>
-                                        <td>abhijit@angularminds.com</td>
-                                        <td>5</td>
-                                        <td>60</td>
-                                        <td>
-                                            <span>Edit</span>
-                                            <span className="text-danger ms-2">Delete</span>
-                                        </td>
-                                    </tr> */}
                                 </table>
                             </div>
                         </div>
